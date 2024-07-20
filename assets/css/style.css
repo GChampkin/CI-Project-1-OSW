@@ -27,20 +27,30 @@ h6 {
 }
 
 .nav {
-    height: 40px;
-    margin: 10px 20px 10px 20px;
-    padding: 5px;
-    background-color: #EBCB8A;
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
     border: 1px solid white;
+    border-radius: 5px;
+    height: 30px;
+    padding: 10px;
 }
 
 .nav ul {
+    color: darkgray;
+    padding: 0 10px;
+    height: 100%;
+    line-height: 0px;
     list-style: none;
     text-align: center;
+    flex: 1;
 }
 
 .nav ul li {
     display: inline-block;
+    text-decoration: none;
+    width: 20%;
+    vertical-align: 10px;
 }
 
 .property-images {
