@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400..700&display=swap');
 
 body {
-    background-color: rgb(224, 245, 241);
-    font-family: "Josefin Slab", serif;
+    background-image: linear-gradient(to right bottom, #151718, #232627, #323537, #414648, #515759, #5e6567, #6b7375, #788183, #858f90, #929e9e, #a0acab, #aebbb9);
+    font-family: "Lora", serif;
+    color: white;
+    font-size: larger;
+    
 }
 
 .title {
@@ -12,22 +15,45 @@ body {
     border: strong darkblue 5px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.nav {
+    height: 40px;
+    margin: 10px 20px 10px 20px;
+    padding: 5px;
+    background-color: #EBCB8A;
+    border: 1px solid white;
+}
+
+.nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+.nav ul li {
+    display: inline-block;
 }
 
 .property-images {
     display: flex;
     flex-direction: column;
-    gap: 10px; 
-    width: 90%; 
+    gap: 10px;
+    width: 90%;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.top-images, .bottom-images {
+.top-images,
+.bottom-images {
     display: flex;
     justify-content: space-between;
     gap: 10px;
@@ -45,7 +71,7 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
-    border-radius: 5px; 
+    border-radius: 5px;
 }
 
 .image {
@@ -82,4 +108,3 @@ footer {
 #contact {
     text-align: center;
 }
-
