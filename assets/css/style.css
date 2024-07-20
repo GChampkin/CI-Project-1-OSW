@@ -108,11 +108,26 @@ footer {
 #booking {
     display: flex;
     flex-direction: column;
+    position: relative;
+    left: 34%;
 }
 
 #booking input {
     padding: 0.5rem;
     margin-bottom: 0.5rem;
+    border-radius: 5px;
+    width: 30%;
+}
+
+#booking button {
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: darkgray;
+    color: white;
+    width: 30%;
+    font-size: large;
+    position: relative;
+    left: 10px;
 }
 
 #contact {
@@ -139,11 +154,20 @@ footer {
 .theatre {
     border: 1px solid white;
     border-radius: 5px;
-    background-color: darkgray;
-    color: white;
+    background-color: white;
     font-size: large;
     height: 30px;
     padding: 5px;
     position: relative;
     left: 40%;
+}
+
+.recommendations {
+    text-align: center;
+}
+
+a {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
 }
