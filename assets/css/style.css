@@ -18,6 +18,36 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
 }
 
+.property-images {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    width: 90%; 
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.top-images, .bottom-images {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.top-images img {
+    width: 50%;
+}
+
+.bottom-images img {
+    width: 30%;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; 
+}
+
 .image {
     margin: 0 auto;
     width: 50%;
