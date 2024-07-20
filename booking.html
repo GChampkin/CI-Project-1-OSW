@@ -12,7 +12,7 @@
     <main>
     
     <nav>
-        <a href="#">Home</a>
+        <a href="index.html">Home</a>
         <a href="attractions.html">Attractions</a>
         <a href="booking.html">Book your stay</a>
     </nav>
@@ -24,14 +24,14 @@
 
     <section>
         <form id="booking">
-            <input type="text" placeholder="First Name">
-            <input type="text" placeholder="Last Name">
-            <input type="email" placeholder="Email address">
+            <input type="text" placeholder="First Name" required>
+            <input type="text" placeholder="Last Name" required>
+            <input type="email" placeholder="Email address" required>
             <label for="date-arrival">Arrival</label>
-            <input type="date" id="date-arrival">
+            <input type="date" id="date-arrival" required>
             <label for="date-departure">Departure</label>
-            <input type="date" id="date-departure">
-            <button>Book</button>
+            <input type="date" id="date-departure" required>
+            <button type="submit">Send request</button>
         </form>
 
     </section>

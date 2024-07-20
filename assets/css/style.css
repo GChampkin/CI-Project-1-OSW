@@ -27,6 +27,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
 }
 
+
 main {
     width: 70%;
     margin: 0 auto;
@@ -34,6 +35,8 @@ main {
 
 footer {
     text-align: center;
+    margin: 20px;
+    padding: 1rem;
 }
 
 #booking {
@@ -45,3 +48,8 @@ footer {
     padding: 0.5rem;
     margin-bottom: 0.5rem;
 }
+
+#contact {
+    text-align: center;
+}
+
