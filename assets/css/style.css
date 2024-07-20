@@ -118,3 +118,32 @@ footer {
 #contact {
     text-align: center;
 }
+
+.attractions {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.attractions-info {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.theatre {
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: darkgray;
+    color: white;
+    font-size: large;
+    height: 30px;
+    padding: 5px;
+    position: relative;
+    left: 40%;
+}
