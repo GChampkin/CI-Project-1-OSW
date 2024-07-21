@@ -26,7 +26,7 @@ h6 {
     font-style: normal;
 }
 
-.nav {
+/* .nav {
     display: flex;
     justify-content: space-between;
     background-color: lightgray;
@@ -34,10 +34,10 @@ h6 {
     border-radius: 5px;
     height: 30px;
     padding: 10px;
-}
+} */
 
 .nav ul {
-    color: darkgray;
+    
     padding: 0 10px;
     height: 100%;
     line-height: 0px;
@@ -51,6 +51,19 @@ h6 {
     text-decoration: none;
     width: 20%;
     vertical-align: 10px;
+}
+
+a {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-image: linear-gradient(to right top, #e1a10f, #e4a72b, #e6ae3e, #e9b44f, #ebba5f);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .property-images {
@@ -152,6 +165,7 @@ footer {
 }
 
 .theatre {
+    color: black;
     border: 1px solid white;
     border-radius: 5px;
     background-color: white;
@@ -162,12 +176,94 @@ footer {
     left: 40%;
 }
 
+button:hover {
+    background-image: linear-gradient(to right top, #e1a10f, #e4a72b, #e6ae3e, #e9b44f, #ebba5f);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
 .recommendations {
     text-align: center;
 }
 
-a {
-    color: black;
-    font-family: "Montserrat", sans-serif;
-    text-decoration: none;
+@media screen and (max-width: 1200px) {
+    
+    .nav ul {
+        display: flex;
+    }
+    .nav li {
+        font-size: 0.9em;
+        flex: 1;
+    }
+
+    .top-images,
+    .bottom-images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top-images img,
+    .bottom-images img {
+        width: 100%;
+    }
+
+    h1, h3, p {
+        font-size: 0.9em;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .nav ul {
+        display: flex;
+        gap: 10px;
+    }
+    .nav li {
+        font-size: 0.6em;
+        flex: 1;
+    }
+
+    .top-images,
+    .bottom-images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top-images img,
+    .bottom-images img {
+        width: 100%;
+    }
+
+    h1, h3, p {
+        font-size: 0.75em;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .nav ul {
+        display: flex;
+        gap: 10px;
+    }
+    .nav li {
+        font-size: 0.5em;
+        flex: 1;
+    }
+
+    .top-images,
+    .bottom-images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top-images img,
+    .bottom-images img {
+        width: 100%;
+    }
+
+    h1, h3, p {
+        font-size: 0.5em;
+    }
+    }
 }
