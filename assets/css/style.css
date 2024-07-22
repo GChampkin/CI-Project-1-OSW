@@ -102,11 +102,6 @@ img {
     width: 50%;
 }
 
-.image img {
-    width: 100%;
-}
-
-
 main {
     width: 70%;
     margin: 0 auto;
@@ -165,10 +160,9 @@ footer {
 }
 
 .theatre {
-    color: black;
     border: 1px solid white;
     border-radius: 5px;
-    background-color: white;
+    background-color: black;
     font-size: large;
     height: 30px;
     padding: 5px;
@@ -185,6 +179,12 @@ button:hover {
 
 .recommendations {
     text-align: center;
+}
+
+iframe {
+    width: 100%;
+    max-width: 1200px;
+    aspect-ratio: 16/9;
 }
 
 @media screen and (max-width: 1200px) {
@@ -210,6 +210,40 @@ button:hover {
 
     h1, h3, p {
         font-size: 0.9em;
+    }
+
+    .attractions {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .image {
+        width: 50vw;
+    }
+
+    .theatre {
+        font-size: 0.6em;
+        height: 20px;
+        padding: 4px;
+        position: relative;
+        left: 38%;
+    }
+
+    #booking {
+        left: 50px;
+        width: 90%;
+        padding: 0 5px; 
+    }
+
+    #booking input {
+        width: 90%;
+        left: 50px; 
+    }
+
+    #booking button {
+        width: 90%;
+        left: 10px;
     }
 
 }
@@ -239,6 +273,44 @@ button:hover {
     h1, h3, p {
         font-size: 0.75em;
     }
+
+    .attractions {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .image {
+        width: 50vw;
+    }
+
+    .theatre {
+        font-size: 0.4em;
+        height: 20px;
+        padding: 4px;
+        position: relative;
+        left: 38%;
+    }
+
+    #booking {
+        left: 20px;
+        width: 90%;
+        padding: 0 5px; 
+    }
+
+    #booking input {
+        width: 90%;
+        left: 20px; 
+    }
+
+    #booking button {
+        width: 90%;
+        left: 10px;
+    }
+
+    #booking label {
+        font-size: 0.75em;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -265,5 +337,43 @@ button:hover {
     h1, h3, p {
         font-size: 0.5em;
     }
+
+    .attractions {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
     }
-}
+
+    .image {
+        width: 50vw;
+    }
+
+    .theatre {
+        font-size: 0.3em;
+        height: 20px;
+        padding: 4px;
+        position: relative;
+        left: 30%;
+    }
+
+    #booking {
+        left: 0;
+        width: 90%;
+        padding: 0 5px; 
+    }
+
+    #booking input {
+        width: 90%;
+        left: 0; 
+    }
+
+    #booking button {
+        width: 90%;
+        left: 10px;
+    }
+
+    #booking label {
+        font-size: 0.5em;
+    }
+    
+    }
