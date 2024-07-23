@@ -12,7 +12,6 @@ body {
 
 .title {
     text-align: center;
-    border: strong darkblue 5px;
 }
 
 h1,
@@ -143,7 +142,7 @@ footer {
 }
 
 .location h3, .location iframe {
-    text-align: centre;
+    text-align: center;
 }
 
 .attractions {
@@ -174,7 +173,7 @@ footer {
     left: 40%;
 }
 
-button:hover {
+.theatre:hover, #booking button:hover {
     background-image: linear-gradient(to right top, #e1a10f, #e4a72b, #e6ae3e, #e9b44f, #ebba5f);
     color: white;
     padding: 5px;
