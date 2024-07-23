@@ -142,6 +142,10 @@ footer {
     text-align: center;
 }
 
+.location h3, .location iframe {
+    text-align: centre;
+}
+
 .attractions {
     display: flex;
     align-items: center;
@@ -177,7 +181,7 @@ button:hover {
     border-radius: 5px;
 }
 
-.recommendations {
+.recommendations, .location {
     text-align: center;
 }
 
@@ -185,7 +189,9 @@ iframe {
     width: 100%;
     max-width: 1200px;
     aspect-ratio: 16/9;
+    position: relative;
 }
+
 
 @media screen and (max-width: 1200px) {
     
