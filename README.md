@@ -2,7 +2,7 @@
 
 Old Station Way is a web page advertising a beautiful property to rent in a centralised location in London. The property is targeted towards a large group of people, be it a family or group of friends looking for a comfortable and cosy but stylish "home-away-from-home" when visiting London, UK. This site will be useful for visitors looking for simple property booking with added information on attractions and general things to do during their stay. 
 
-![alt text](image.png)
+<img src="assets/images/website.png" alt="Website imagery">
 
 ## Features
 
@@ -11,14 +11,14 @@ Old Station Way is a web page advertising a beautiful property to rent in a cent
 * The fully-functional navigation bar is featured on all 3 pages and includes a link to the Home page, Attractions and Bookings. 
 * This section will allow the user to easily navigate from page to page without needing to use the 'back' button and is labelled to clearly show what information can be found on the other pages, enabling a positive and smooth user experience. 
 
-![alt text](image-1.png)
+<img src="assets/images/navigation.png" alt="Navigation bar">
 
 ### The Landing Page
 
 * The landing page clearly shows the title of the website to begin with, being the street name of the property, as well as photographs of the rooms purposefully organised to allow the user to see immediately what the decor and size of rooms is like without the need to navigate to another page to see a Gallery. 
 * This section includes information about the type of property that they are considering which involves key features that make it stand out from other rentals.
 
-![alt text](image-2.png)
+<img src="assets/images/home.png" alt="Home page">
 
 ### Contact Us Section
 
@@ -26,36 +26,35 @@ Old Station Way is a web page advertising a beautiful property to rent in a cent
 * Additionally a google map of the property location has been included below the contact information which is fully interactive for the user to be able to review the location of the property, as well as facilities in the vicinity. 
 * The user will see the variety of facilities in the immediate area as well as the property's incredibly close proximity to the tube station as well as other transport links. 
 
-![alt text](image-3.png)
+<img src="assets/images/contact-us.png" alt="Contact section">
 
 ### Footer
 
 * The footer of the page simply features the copyright information and is present on all 3 pages.
 * This shows the user that the information presented is both legitimate and up-to-date. 
 
-![alt text](image-5.png)
+<img src="assets/images/footer.png" alt="footer"> 
 
 ### Attractions Page
 
 * The Attractions page details useful information of key areas and things to do both in the vicinity of the property and also the main city. 
 * This section is valuable to the user in providing quick information about key things to do local to the property and some breif information of other attractions they can plan into their itinerary, making the property stand out as a well-located, attractive option of a place to stay. 
 
-![alt text](image-6.png)
-
+<img src="assets/images/attractions-page.png" alt="Attractions page">
 
 ### Attractions Page - Recommendations
 
 * At the foot of the information on attractions in London, also featured is a useful link to a recommended theatre ticket retailer (which opens in a new tab for easier user navigation) as well as video of the trailer of the provider's recommended show. 
 * This section adds a touch of personalisation and is considerate of the user's needs, offering an "above and beyond" approach to guest satisfaction.
 
-![alt text](image-7.png)
+<img src="assets/images/recommendations.png" alt="Recommendation section">
 
 ### Booking Page
 
 * The Booking page features an easy-to-read form which provides clarity on the information required to fill out in order to request a booking simply and efficiently. 
 * This page is intended to meet user satisfaction by avoiding the required input of lots of information before the booking is confirmed. 
 
-![alt text](image-8.png)
+<img src="assets/images/bookings.png" alt="Bookings page">
 
 ### Features Left to Implement
 
