@@ -86,12 +86,24 @@ Old Station Way is a web page advertising a beautiful property to rent in a cent
 * When passing through the official (Jigsaw) W3C Validator, 2 errors were found; one due to a single occurence of a british spelling of 'center' (centre), and the other due to a mis-application of the use of 'solid' as a value of 'border'. This was easily corrected as the styling had no impact on my chosen styles. 
 * No other errors were found, but there was a warning that my font styles could not be checked due to being an import link from Google Fonts. 
 
+### Accessibility
+
+* The site confirms as having good accessibility when run through lighthouse in devtools. However there are other performance elements that need addressing for further improved overall performance. 
+
+<img src="assets/images/accessibility.png" alt="Accessibility info">
+
 ## Unfixed Bugs
 
 * There are no bugs left un-fixed as time has been taken to ensure the site runs smoothly.
 * The primary shortcoming of this project was that it should have been developed for mobile first which would have made the process of ensuring reponsive design much simpler. However the project was developed for a desktop which meant that CSS media queries were complex to work out in order to make the different features scale down appropriately. As such the CSS code is seemingly large, however all attempts were made to simplify and minimise this as much as possible. 
 
 ## Deployment
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+* In the GitHub repository, navigate to the Settings tab
+* From the source section drop-down menu, select the Master Branch
+* Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+* The live link can be found here - 
 
 ## Credits
 
