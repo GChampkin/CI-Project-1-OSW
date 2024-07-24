@@ -63,6 +63,17 @@ Old Station Way is a web page advertising a beautiful property to rent in a cent
 
 ## Testing
 
+* Throughout the development of 'Old Station Way' multiple difficulties arose with the organisation of different elements within the HTML and CSS files. In particular, research was needed in order to organise and design the Nav bar as desired, as well as the iframe (YouTube video) on the Attractions page. 
+* After extensive editing, the desire outcome was achieved.
+* The greatest difficulty came with the implementation of media queries to scale the site down for different screen sizes. This was later realised to be the fault of not developing the page for mobile first. Through further research and the support from using DevTools, the site was eventually found to be fully responsive to other devices. 
+* The home page was purposefully designed to have an elegant aesthetic that is clear and provides the relevant information the user will require instantaneously in order to hold their attention and prevent them from moving away from the site. The layout of the images on this page is therefore visually pleasing but this layout needed to be adapted for smaller screen sizes, particularly mobile devices to ensure good visibility of the images presenting the key features of the property being advertised. As such the picture layout adapts to mobile screens by moving to a 'stacked' appearance that the user can scroll down through to see all images clearly before meeting the information about the property. 
+* The necessary contact information is then purposefully provided at the bottom of the screen as is common across most websites to allow for sensical structure that will be easy to navigate for the user. 
+* The navigation bar is placed at the top of the page, with the three pages presented in a row as opposed to a list or a burger menu to be both visiually attractive but also provide the user with clarity in how to navigate to other pages and know exactly what to expect on those pages. This navigation bar is fully functioning, taking the user to the appropriate page within the site when clicked. It also uses a 'hover' feature to indicate clearly to the user which option they are selecting when they hover over the link with their mouse. This nav bar is responsive, purposefully shrinking in size and remaining in a row as opposed to moving into a list or burger menu as there are not many pages and therefore can remain in the originally designed format, regardless of screen size. 
+* The attractions page presents the user with clear information on the local amenities and attractions to convince them of the action-packed experiecne that awaits them on their visit to London. This information is also accompanied by pictures. There is also a recommendations section with an active link to a recommended theatre tickets website, which opens in a separate tab for easy navigation which does not take the user away from the site. This also has the hover feature applied to it to indicate to the user when they are hovering over the link. 
+* This information changes format as the screen size is reduced to present the photographs on top of the information in order to ensure best user-viewing of the images and easy-reading of the presented information. 
+* Below this is an embedded video file that can be played within the page by an easy click to give the user a look into a recommended show they could book for their visit. This also adapts depending upon the screen size to ensure that it is of an adequate size for viewing on any device. 
+* The Bookings page features simple information for the user instructing to complete the form that is clearly presented in the centre of the page in order to make a request for booking which will be responded to within 24 hours. The form is clearly labelled and structured so that the user knows what information is required. This is ensured through the 'required' feature enables on the 'input' elements. The submit button also has the hover feature to indicate when the user is hovering over the button and, as this site is not intended for actual public use, upon clicking it, sends the information to a mock server. This form is also fully responsive in order to take up a suitable amount of screen size depending on the user viewport. 
+
 ## Validator Testing
 
 ### HTML
@@ -87,4 +98,16 @@ Old Station Way is a web page advertising a beautiful property to rent in a cent
 
 ### Content
 
+* The text on the 'Home' page was taken from a property listing on Savills wesbite and can be found via this <a href="https://search.savills.com/es/en/property-detail/gbbzrsbgs240077">link.</a>
+* The first text on the attractions page about London was taken from a google search for London and appears on the right as the first article in the search. See <a href="https://www.google.com/search?sca_esv=9aab8662baee94c4&sca_upv=1&sxsrf=ADLYWILWJLFMS9VCAFfmPPtT9us7KrXhyA:1721780889738&q=London&stick=H4sIAAAAAAAAAONgFuLQz9U3MMkqyFGCs7QEgzNTUssTK4v9UitKgktSC4p_MYoFpOYX5KQqJOYU5ysUpyYWJWcopOUXLWJl88nPS8nP28HKeItNkqH7aY-xjSRbheC05sYnnkcUP859t6VEvpQdANaGAjZqAAAA&sa=X&ved=2ahUKEwipj8HStb6HAxXZWUEAHd72Om8QzO0BKAR6BAgTEBM&biw=1920&bih=878&dpr=1">here.</a>
+* The background was created using <a href="https://mycolor.space/">mycolor.space.</a>
+* The fonts were sourced on <a href="https://fontjoy.com/">Font Joy</a> and then imported from <a href="https://fonts.google.com/">Google Fonts.</a>
+* Some styling of the site required extra research and this was taken from <a href="https://www.w3schools.com/">w3schools.com. </a>
+* With one particular media query in trying to make the iframe featuring the video responsive, <a href="https://chatgpt.com/">Chat GPT</a> was used to support. However the code generated was firstly studied, and then subsequently edited before using due to slight bugs that occurred with this. 
+
 ### Media
+
+* The photographs on the Home page and Attractions page were all found through <a href="https://www.pexels.com/">Pexels.com .</a>
+* The photograph in the Recommended section was taken from Gooogle in a search for 'Les Miserables'.
+* The map on the home page was sourced and imported through <a href="https://www.google.com/maps/search/google/@51.462363,-0.1907672,12z/data=!3m1!4b1?entry=ttu">Google Maps.</a>
+* The embedded video of the 'Tina - The Musical' trailer was sourced on <a href="https://www.youtube.com/watch?v=uz9WcnBd6tI">Youtube.</a>
